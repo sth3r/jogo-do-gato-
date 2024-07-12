@@ -1,26 +1,19 @@
-.container{
-    display: flex;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    /* border: 5px double rgb(161, 87, 217); */
-    position: relative;
-}
+
 
 /*----------------------------GATO DORMINDO----------------------------*/
 
     .gato-seepy{
-        background-image: url('sprites/gato1.png');
+        background-image: url('assets/sprites/cato/gato1.png');
         background-size: 522.88px 808.38px; 
         width: var(--mimindo);
-        height: 93.77px; 
+        height: 90.77px; 
         background-repeat: no-repeat;
         background-clip: content-box;
         background-position: 720px 0px;
         animation-name: gato-mimino;
         animation-duration:2400ms;
         animation-iteration-count: infinite;
-        animation-timing-function: step-end;
+        animation-timing-function: step-end; 
         animation-delay: 0s;
         /* border: solid 2px yellow; */
         visibility: hidden;
@@ -37,7 +30,7 @@
 /*----------------------------GATO SUBINDO----------------------------*/
 
     .gato-up{
-        background-image: url('sprites/gato1.png');
+        background-image: url('assets/sprites/cato/gato1.png');
         background-size: 522.88px 808.38px; 
         width: var(--frente);
         height: 93.77px; 
@@ -66,7 +59,7 @@
 /*----------------------------GATO DESCENDO----------------------------*/
 
     .gato-down{
-        background-image: url('sprites/gato1.png');
+        background-image: url('assets/sprites/cato/gato1.png');
         background-size: 522.88px 808.38px; 
         width: var(--frente);
         height: 93.77px; 
@@ -74,7 +67,7 @@
         background-clip: content-box;
         background-position: 0px 0px;
         animation-name: gato-descendo;
-        animation-duration:2000ms;
+        animation-duration:1500ms;
         /* animation-iteration-count: infinite; */
         animation-timing-function: step-end;
         animation-delay: 4s;
@@ -96,7 +89,7 @@
 /*----------------------------GATO INDO ESQUERDA----------------------------*/
 
     .gato-left{
-        background-image: url('sprites/gato1.png');
+        background-image: url('assets/sprites/cato/gato1.png');
         background-size: 522.88px 808.38px; 
         width: var(--lado); 
         height: 93.77px; 
@@ -126,7 +119,7 @@
 /*----------------------------GATO INDO DIREITA----------------------------*/
 
     .gato-right{
-        background-image: url('sprites/gato1.png');
+        background-image: url('assets/sprites/cato/gato1.png');
         background-size: 522.88px 808.38px; /*tamanho do  background */
         width: var(--lado); /*tamanho da caixa visivel */
         height: 93.77px; /*tamanho da caixa visivel */

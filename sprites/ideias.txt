@@ -1,3 +1,0 @@
-se ficar parado mt tempo ele dorme
-
-fazer um array em js pra trocar a imagem do gato
